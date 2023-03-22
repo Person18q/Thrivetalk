@@ -1,0 +1,77 @@
+.squares{
+  background-color: #FFFFFF;
+  width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-top: 120px;
+}
+
+.squares__block_size{
+  width: 480px;
+  height: 480px;
+  position: relative;
+  display: flex;
+}
+
+.squares__block__DarkBlue{
+  background-color: #22356F;
+}
+
+.squares__block__blue{
+  background-color: #0052C1;
+}
+
+.squares__block__img{
+  background-image: url(/Картинки/strawberry.png);
+}
+
+.squares__block__cyan{
+  background-color: #62D0DF;
+}
+
+.squares__block__gray{
+  background-color: #DEE1FF;
+}
+
+.squares__block__violet{
+  background-color: #8F00FF;
+}
+
+.squares__block-line{
+  position: relative;
+}
+
+.squares__block-line::after{
+  content: '';
+  position: absolute;
+  display: block;
+  background: #FFFFFF;
+  border-radius: 1px;
+  height: 2px;
+  width: 340px;
+  top: 96px;
+  right: 70px;
+}
+
+.squares__block-circle::before{
+  content: '';
+  position: absolute;
+  display: block;
+  background: #E9B730;
+  border-radius: 10px;
+  width: 12px;
+  height: 12px;
+  top: 143px;
+  left: 72px;
+}
+
+.squares__block__txt{
+  color: #FFFFFF;
+  font-size: 32px;
+  letter-spacing: -0.006em;
+  margin: 126px 0;
+  margin-left: 104px;
+  width: 150px;
+  font-weight: bold;
+}

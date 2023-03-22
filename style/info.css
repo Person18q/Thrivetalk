@@ -1,0 +1,59 @@
+.info{
+  width: 1440px;
+  background-color: #FFFFFF;
+  display: flex;
+  margin: 0 auto;
+  gap: 56px;
+  position: relative;
+}
+
+.info::before{
+  content: '';
+  position: absolute;
+  background-image: url(/Картинки/info.png);
+  width: 570px;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.info__block{
+  display: block;
+  flex-direction: column;
+  width: 207px;
+  height: 208px;
+  margin: 0 0;
+  margin-top: 98px;
+  margin-bottom: 74px;
+}
+
+.info__left{
+  margin-left: 638px;
+}
+
+.info__header{
+  font-size: 14px;
+  color: #22356F;
+  font-weight: bold;
+  margin: 0 0;
+}
+
+.info__txt{
+  color: #22356F80;
+  margin: 0 0;
+  margin-top: 50px;
+  font-size: 14px;
+  line-height: 25.36px;
+  opacity: .9;
+  font-weight: lighter;
+}
+
+.info__txt__top{
+  margin: 0 0;
+  margin-top: 25px;
+}
+
+.info__link{
+  text-decoration: none;
+  color: #006DFF;
+}

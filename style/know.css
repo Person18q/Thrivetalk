@@ -1,0 +1,54 @@
+.know{
+  background-color: #FFFFFF;
+  width: 1440px;
+  height: 799px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 1px;
+  position: relative;
+}
+
+.know::before{
+  content: '';
+  position: absolute;
+  background-image: url(/Картинки/know.png);
+  background-repeat: no-repeat;
+  width: 480px;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.know__header{
+  margin: 0 0;
+  margin-top: 102px;
+  margin-left: 589px;
+  font-size: 16px;
+  opacity: .5;
+  font-weight: lighter;
+}
+
+.know__txt{
+  width: 676px;
+  margin: 0 0;
+  margin-top: 200px;
+  margin-left: 589px;
+  font-size: 36px;
+  color: #22356F;
+  font-weight: bold;
+  line-height: 58.23px;
+}
+
+.know__cyan{
+  color: aqua;
+}
+
+.know__header__orange{
+  color: #FAB63E;
+  margin: 0 0;
+  padding-top: 152px;
+  margin-left: 589px;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 42px;
+}

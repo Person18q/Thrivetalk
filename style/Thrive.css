@@ -1,0 +1,50 @@
+.Thrive{
+  background-color: #62D0DF;
+  width: 1440px;
+  height: 603px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 20px 20px 0 0;
+}
+
+.Thrive__block{
+  max-width: 1172px;
+  margin: 0 auto;
+}
+
+.Thrive::after{
+  content: '';
+  position: absolute;
+  background-image: url(/Картинки/thrive.png);
+  background-repeat: no-repeat;
+  width: 525px;
+  height: 100%;
+  top: 0;
+  right: 0;
+  border-radius: 0 20px 0 0;
+}
+
+.Thrive__header{
+  margin: 0;
+  padding-top: 130px;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.Thrive__txt{
+  margin: 0;
+  padding-top: 75px;
+  line-height: 32.35px;
+  letter-spacing: -0.006em;
+  width: 555px;
+  font-size: 20px;
+  padding-bottom: 95px;
+  color: #FFFFFF;
+}
+
+
+
+.Thrive__txt__bold{
+  font-weight: bold;
+  font-size: 24px;
+}

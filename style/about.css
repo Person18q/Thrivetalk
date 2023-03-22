@@ -1,0 +1,95 @@
+.about{
+  background-color: #FFFFFF;
+  width: 1440px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.about__txt{
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 76px;
+  font-size: 24px;
+  line-height: 37.27px;
+  letter-spacing: -0.006em;
+  width: 580px;
+}
+
+.about__txt::after{
+  content: 'ABOUT US';
+  position: absolute;
+  left: -355px;
+  top: 0;
+  font-size: 16px;
+}
+
+.about__header{
+  display: flex;
+  color: #22356F80;
+  opacity: .9;
+  font-size: 16px;
+  letter-spacing: -0.006em;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.about__main__block{
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.about__block_size{
+  width: 360px;
+  height: 360px;
+  position: relative;
+  display: flex;
+}
+
+.about__block-pink{
+  background-color: #FFE2DE;
+}
+
+.about__block-green{
+  background-color: #C4E769;
+}
+
+.about__block-PumpingСyan{
+  background-color: #62D0DF;
+}
+
+.about__block-PumpingBlue{
+  background-color: #0052C1;
+}
+
+.about__block-line::after{
+  content: '';
+  position: absolute;
+  background: #FFFFFF;
+  border-radius: 1px;
+  display: block;
+  width: 255px;
+  height: 1px;
+  top: 72px;
+  right: 52px;
+}
+
+.about__block-circle::before{
+  content: '';
+  position: absolute;
+  background: #E9B730;
+  border-radius: 6px;
+  width: 9px;
+  height: 9px;
+  top: 107px;
+  left: 54px;
+}
+
+.about__block__txt{
+  color: #FFFFFF;
+  font-size: 32px;
+  letter-spacing: -0.006em;
+  margin: 95px auto;
+  width: 200px;
+  font-weight: bold;
+}
