@@ -21,7 +21,7 @@
 .copyright__txt::before{
   content: '';
   position: absolute;
-  background-image: url(/Картинки/©.png);
+  background-image: url(/img/©.png);
   width: 12px;
   height: 12px;
   left: 176px;

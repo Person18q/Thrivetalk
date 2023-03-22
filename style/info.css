@@ -10,7 +10,7 @@
 .info::before{
   content: '';
   position: absolute;
-  background-image: url(/Картинки/info.png);
+  background-image: url(/img/info.png);
   width: 570px;
   height: 100%;
   top: 0;

@@ -15,7 +15,7 @@
 .Thrive::after{
   content: '';
   position: absolute;
-  background-image: url(/Картинки/thrive.png);
+  background-image: url(/img/thrive.png);
   background-repeat: no-repeat;
   width: 525px;
   height: 100%;
