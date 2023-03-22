@@ -11,7 +11,7 @@
 .know::before{
   content: '';
   position: absolute;
-  background-image: url(/img/know.png);
+  background-image: url(../img/know.png);
   background-repeat: no-repeat;
   width: 480px;
   height: 100%;

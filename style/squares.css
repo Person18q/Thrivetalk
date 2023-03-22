@@ -23,7 +23,7 @@
 }
 
 .squares__block__img{
-  background-image: url(/img/strawberry.png);
+  background-image: url(../img/strawberry.png);
 }
 
 .squares__block__cyan{
