@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  width: 1700px;
+  width: 1440px;
   background-color: #F4F9E2;
   padding: 10px 0px;
   margin: 0 auto;
@@ -163,8 +163,8 @@
   background-image: url(../img/lobby.png);
   background-position: center;
   top: -10px;
-  right: -280px;
-  width: 850px;
-  height: 680px;
-  background-size: 1000px;
+  right: -135px;
+  width: 720px;
+  height: 630px;
+  background-size: 900px;
 }
