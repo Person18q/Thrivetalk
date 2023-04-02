@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  max-width: 1440px;
+  width: 1440px;
   background-color: #F4F9E2;
   padding: 10px 0px;
   margin: 0 auto;
@@ -13,6 +13,7 @@
   justify-content: space-between;
   margin: 0 auto;
   max-width: 1172px;
+  min-width: 800px;
   align-items: center;
 }
 
