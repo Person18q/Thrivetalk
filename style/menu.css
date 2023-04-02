@@ -2,10 +2,19 @@
   position: sticky;
   top: 0;
   z-index: 1;
-  width: 1440px;
+  max-width: 1440px;
   background-color: #F4F9E2;
   padding: 10px 0px;
   margin: 0 auto;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1172px;
+  min-width: 800px;
+  align-items: center;
 }
 
 .main{
@@ -14,17 +23,6 @@
   width: 1440px;
   margin: 0 auto;
 }
-
-.menu{
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  
-  max-width: 1172px;
-  min-width: 550px;
-  align-items: center;
-}
-
 
 .menu__name{
   font-size: 24px;
@@ -35,6 +33,7 @@
   display: flex;
   width: 264px;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .menu__link{
@@ -167,4 +166,31 @@
   width: 720px;
   height: 630px;
   background-size: 900px;
+}
+
+@media screen and (max-width: 1450px){
+  .menu__name{
+    font-size: 30px;
+    color: #62D0DF;
+  }
+  
+  .menu__link{
+    font-size: 25px;
+  }
+  
+  .menu__button{
+    width: 170px;
+    height: 60px;
+  }
+
+  .menu__link::after{
+    content: '';
+    position: absolute;
+    height: 4px;
+  }
+
+  .profile__button--who{
+    width: 170px;
+    height: 60px;
+  }
 }
