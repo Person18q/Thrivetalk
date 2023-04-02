@@ -31,7 +31,7 @@
 
 .menu__list{
   display: flex;
-  width: 264px;
+  width: 300px;
   justify-content: space-between;
   gap: 30px;
 }
@@ -169,18 +169,30 @@
 }
 
 @media screen and (max-width: 1450px){
+
+  .menu-1{
+    padding: 20px 0px;
+  }
+
   .menu__name{
-    font-size: 30px;
+    font-size: 40px;
     color: #62D0DF;
   }
-  
-  .menu__link{
-    font-size: 25px;
+
+  .menu__list{
+    width: 415px;
+    gap: 30px;
   }
   
   .menu__button{
-    width: 170px;
-    height: 60px;
+    border-radius: 50px / 40px;
+    width: 180px;
+    height: 70px;
+    font-size: 20px;
+  }
+  
+  .menu__link{
+    font-size: 30px;
   }
 
   .menu__link::after{
@@ -190,7 +202,12 @@
   }
 
   .profile__button--who{
-    width: 170px;
-    height: 60px;
+    width: 180px;
+    height: 70px;
+    font-size: 20px;
+  }
+
+  .profile__button--what{
+    font-size: 21px;
   }
 }
